@@ -17,6 +17,8 @@ ul {
 /* Hero section */
 .hero-title {
   color: var(--color-primary-light);
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hero-title .accent {
@@ -44,14 +46,21 @@ ul {
 /* Link */
 .link {
   color: var(--color-brand-light);
+  text-decoration: none;
 }
 
 .link:hover {
   color: var(--color-brand-light);
+  text-decoration: underline;
 }
 
 .link-footer {
   color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
 }
 
 /* Advantages section */
@@ -64,16 +73,24 @@ ul {
   color: var(--color-brand-dark);
 }
 
-.shop-bakery .accent {
+/* Traditions section */
+.traditions-text .brand-uppercase {
   color: var(--color-brand-light);
+  text-transform: uppercase;
 }
 
-.five-minutes .accent {
+.traditions-text .brand {
   color: var(--color-brand-light);
+  text-transform: none;
 }
 
 .address-footer {
   color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.address-footer:hover {
+  text-decoration: underline;
 }
 
 .data-saved {
