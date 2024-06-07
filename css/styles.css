@@ -101,6 +101,8 @@ ul {
   text-transform: uppercase;
   font-size: 128px;
   font-weight: 900;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-title .accent {
