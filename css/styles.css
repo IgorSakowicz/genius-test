@@ -66,6 +66,8 @@ address {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -87,6 +89,31 @@ ul {
   max-width: 1288px;
   margin: 0 auto;
   padding: 0 24px;
+}
+
+/* Header */
+.header-color {
+  background-color: #31261a;
+}
+
+.header-container {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.menu {
+  display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 /* Hero section */
@@ -135,8 +162,6 @@ ul {
 
 .link:hover {
   color: var(--color-brand-light);
-  text-decoration: underline;
-  font-weight: 600;
 }
 
 .link-footer {
@@ -149,12 +174,18 @@ ul {
 }
 
 /* Advantages section */
-.advantages-list {
+.advantages-section {
   background-color: var(--color-brand-light);
-  color: var(--color-primary-light);
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .advantages-item {
+  color: var(--color-primary-light);
   font-size: 20px;
   font-weight: 300;
 }
