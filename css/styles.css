@@ -84,6 +84,13 @@ ul {
   padding: 48px 0;
 }
 
+.section-title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: var(--color-primary-dark);
+}
+
 .container {
   width: 100%;
   max-width: 1288px;
@@ -191,19 +198,7 @@ ul {
   font-weight: 300;
 }
 
-.section-title {
-  font-size: 64px;
-  font-weight: 900;
-  line-height: 1.3;
-  color: var(--color-primary-dark);
-}
-
-.section-text {
-  color: var(--color-brand-dark);
-}
-
 /* Formats section */
-
 .formats-list {
   display: flex;
   gap: 20px;
@@ -235,6 +230,8 @@ ul {
   color: #faf4ea;
 }
 
+/* Chefs section */
+
 .chefs-title {
   margin-bottom: 16px;
   font-weight: 600;
@@ -244,6 +241,10 @@ ul {
 
 .chef-title {
   margin-bottom: 80px;
+}
+
+.chef-title .accent {
+  color: var(--color-brand-dark);
 }
 
 /* Traditions section */
