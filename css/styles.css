@@ -126,6 +126,10 @@ ul {
 /* Hero section */
 .hero-section {
   padding: 272px 0;
+  background-image: url('../images/hero-section-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
 .hero-title {
@@ -311,4 +315,10 @@ ul {
 
 .google-maps {
   border-radius: 16px;
+}
+
+/* Footer */
+.footer {
+  background-image: url('../images/footer-background.png');
+  background-color: var(--color-primary-dark);
 }
