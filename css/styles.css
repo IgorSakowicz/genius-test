@@ -32,9 +32,10 @@
 
 :root {
   --color-brand-dark: #465929;
-  --color-brand-light: #819b57;
+  --color-brand-normal: #819b57;
   --color-primary-dark: #31261a;
   --color-primary-light: #faf4ea;
+  --color-brand-light: #cfcfbc;
 }
 
 /* Base */
@@ -142,14 +143,14 @@ ul {
 }
 
 .hero-title .accent {
-  color: var(--color-brand-light); /* HEX value */
+  color: var(--color-brand-normal); /* HEX value */
 }
 
 /* Button */
 .button {
   padding: 16px 32px;
-  background-color: var(--color-brand-light);
-  border: 2px solid var(--color-brand-light);
+  background-color: var(--color-brand-normal);
+  border: 2px solid var(--color-brand-normal);
   border-radius: 8px;
   color: var(--color-primary-light);
   cursor: pointer;
@@ -162,7 +163,7 @@ ul {
 }
 
 .button:active {
-  background-color: var(--color-brand-light);
+  background-color: var(--color-brand-normal);
 }
 
 /* Link */
@@ -172,7 +173,7 @@ ul {
 }
 
 .link:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand-normal);
 }
 
 .link-footer {
@@ -187,7 +188,7 @@ ul {
 /* Advantages section */
 .advantages-section {
   padding: 16px 0px;
-  background-color: var(--color-brand-light);
+  background-color: var(--color-brand-normal);
 }
 
 .advantages-list {
@@ -255,6 +256,14 @@ ul {
   margin-bottom: 80px;
 }
 
+.chef-title::before,
+.chef-title::after {
+  display: block;
+  width: 352px;
+  border: 2px solid var(--color-brand-light);
+  content: '';
+}
+
 .chef-title .accent {
   color: var(--color-brand-dark);
 }
@@ -280,13 +289,13 @@ ul {
 }
 
 .traditions-text .brand-uppercase {
-  color: var(--color-brand-light);
+  color: var(--color-brand-normal);
   text-transform: uppercase;
   font-weight: 600;
 }
 
 .traditions-text .brand {
-  color: var(--color-brand-light);
+  color: var(--color-brand-normal);
   text-transform: none;
   font-weight: 600;
 }
